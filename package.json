@@ -5,7 +5,7 @@
   "main": "analysis.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node analysis.js && node make-csv.js && sort -nr -t ',' -k 7,7 -k 8,8 results.csv > sorted_results.csv"
+    "start": "node analysis.js && node make-csv.js && sort -n -t ',' -k 7,7 -k 8,8 results.csv > sorted_results.csv"
   },
   "keywords": [],
   "author": "",
