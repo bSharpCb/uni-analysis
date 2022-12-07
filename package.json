@@ -1,0 +1,17 @@
+{
+  "name": "univision",
+  "version": "1.0.0",
+  "description": "",
+  "main": "analysis.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node analysis.js && node make-csv.js && sort -nr -t ',' -k 7,7 -k 8,8 results.csv > sorted_results.csv"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv": "^6.2.5",
+    "json-2-csv": "^3.18.0"
+  }
+}
