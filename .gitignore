@@ -1,2 +1,6 @@
 node_modules
-data
+interactions.csv
+users.csv
+results.json
+results.csv
+sorted_results.csv
